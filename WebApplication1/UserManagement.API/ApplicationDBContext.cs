@@ -8,29 +8,29 @@
     using System.Data;
 
 
-    [Flags]
-    public enum Permissions
-    {
-        None = 0,
-        ManageDirectTax = 1 << 0,
-        ManageInDirectTax = 1 << 1,
-        ManageCompliance = 1 << 2,
-        DirectTaxReadOnly = 1 << 3,
-        DirectTaxAddOnly = 1 << 4,
-        DirectTaxModifyOnly = 1 << 5,
-        DirectTaxUploadOnly = 1 << 6,
-        DirectTaxDeleteOnly = 1 << 7,
-        InDirectTaxReadOnly = 1 << 8,
-        InDirectTaxAddOnly = 1 << 9,
-        InDirectTaxModifyOnly = 1 << 10,
-        InDirectTaxUploadOnly = 1 << 11,
-        InDirectTaxDeleteOnly = 1 << 12,
-        ComplianceTaxReadOnly = 1 << 13,
-        ComplianceTaxAddOnly = 1 << 14,
-        ComplianceTaxModifyOnly = 1 << 15,
-        ComplianceTaxUploadOnly = 1 << 16,
-        ComplianceDeleteOnly = 1 << 17
-    }
+    //[Flags]
+    //public enum Permissions
+    //{
+    //    None = 0,
+    //    ManageDirectTax = 1 << 0,
+    //    ManageInDirectTax = 1 << 1,
+    //    ManageCompliance = 1 << 2,
+    //    DirectTaxReadOnly = 1 << 3,
+    //    DirectTaxAddOnly = 1 << 4,
+    //    DirectTaxModifyOnly = 1 << 5,
+    //    DirectTaxUploadOnly = 1 << 6,
+    //    DirectTaxDeleteOnly = 1 << 7,
+    //    InDirectTaxReadOnly = 1 << 8,
+    //    InDirectTaxAddOnly = 1 << 9,
+    //    InDirectTaxModifyOnly = 1 << 10,
+    //    InDirectTaxUploadOnly = 1 << 11,
+    //    InDirectTaxDeleteOnly = 1 << 12,
+    //    ComplianceTaxReadOnly = 1 << 13,
+    //    ComplianceTaxAddOnly = 1 << 14,
+    //    ComplianceTaxModifyOnly = 1 << 15,
+    //    ComplianceTaxUploadOnly = 1 << 16,
+    //    ComplianceDeleteOnly = 1 << 17
+    //}
     public class Group
     {
         public int Id { get; set; }
@@ -104,6 +104,41 @@
         public string Name { get; set; }
     }
 
+    public class EntityCountry
+    {
+        public int EntityCountryId { get; set; }
+        public int EntityId { get; set; }
+        public Entity Entity { get; set; }
+        public int CountryId { get; set; }
+        public Country Country { get; set; }
+    }
+
+    public class EntityStateMapping
+    {
+        public int EntityStateId { get; set; }
+        public int EntityId { get; set; }
+        public Entity Entity { get; set; }
+        public int StateId { get; set; }
+        public State State { get; set; }
+    }
+
+    public class EntityCity
+    {
+        public int EntityCityId { get; set; }
+        public int EntityId { get; set; }
+        public Entity Entity { get; set; }
+        public int CityId { get; set; }
+        public City City { get; set; }
+    }
+    public class GroupCountry
+    {
+        public int GroupCountryId { get; set; }
+        public int GroupId { get; set; }
+        public Group Group { get; set; }
+        public int CountryId { get; set; }
+        public Country Country { get; set; }
+    }
+
     //public class UserPermission
     //{
     //    public int Id { get; set; }
@@ -146,6 +181,45 @@
         public Group Group { get; set; }
         public int EntityId { get; set; }
         public Entity Entity { get; set; }
+        public DbSet<GroupModule> GroupModules { get; set; }
+        public DbSet<GroupSubmodule> GroupSubmodules { get; set; }
+        public DbSet<EntityModule> EntityModules { get; set; }
+        public DbSet<EntitySubmodule> EntitySubmodules { get; set; }
+    }
+    public class EntitySubmodule
+    {
+        public int EntitySubmoduleId { get; set; }
+        public int EntityId { get; set; }
+        public Entity Entity { get; set; }
+        public int SubmoduleId { get; set; }
+        public Submodule Submodule { get; set; }
+    }
+
+    public class EntityModule
+    {
+        public int EntityModuleId { get; set; }
+        public int EntityId { get; set; }
+        public Entity Entity { get; set; }
+        public int ModuleId { get; set; }
+        public Module Module { get; set; }
+    }
+
+    public class GroupSubmodule
+    {
+        public int GroupSubmoduleId { get; set; }
+        public int GroupId { get; set; }
+        public Group Group { get; set; }
+        public int SubmoduleId { get; set; }
+        public Submodule Submodule { get; set; }
+    }
+
+    public class GroupModule
+    {
+        public int GroupModuleId { get; set; }
+        public int GroupId { get; set; }
+        public Group Group { get; set; }
+        public int ModuleId { get; set; }
+        public Module Module { get; set; }
     }
     public class ApplicationUser : IdentityUser
     {
@@ -181,7 +255,14 @@
         public DbSet<Entity> Entities { get; set; }
         public DbSet<EntityOwner> EntityOwners { get; set; }
         public DbSet<UserPermission> UserPermissions { get; set; }
-
+        public DbSet<GroupCountry> GroupCountries { get; set; }
+        public DbSet<EntityCountry> EntityCountries { get; set; }
+        public DbSet<EntityStateMapping> EntityStates { get; set; }
+        public DbSet<GroupModule> GroupModules { get; set; }
+        public DbSet<GroupSubmodule> GroupSubmodules { get; set; }
+        public DbSet<EntityModule> EntityModules { get; set; }
+        public DbSet<EntitySubmodule> EntitySubmodules { get; set; }
+        public DbSet<EntityCity> EntityCities { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
@@ -266,43 +347,6 @@
                 .WithMany(g => g.Entities)
                 .HasForeignKey(e => e.GroupId)
                 .OnDelete(DeleteBehavior.Restrict);
-
-            //// Configure UserPermission relationships
-            //modelBuilder.Entity<UserPermission>()
-            //    .HasOne(up => up.Group)
-            //    .WithMany()
-            //    .HasForeignKey(up => up.GroupId)
-            //    .OnDelete(DeleteBehavior.Restrict);
-
-            //modelBuilder.Entity<UserPermission>()
-            //    .HasOne(up => up.Entity)
-            //    .WithMany()
-            //    .HasForeignKey(up => up.EntityId)
-            //    .OnDelete(DeleteBehavior.Restrict);
-
-            //modelBuilder.Entity<UserPermission>()
-            //    .HasOne(up => up.Module)
-            //    .WithMany()
-            //    .HasForeignKey(up => up.ModuleId)
-            //    .OnDelete(DeleteBehavior.Restrict);
-
-            //modelBuilder.Entity<UserPermission>()
-            //    .HasOne(up => up.Submodule)
-            //    .WithMany()
-            //    .HasForeignKey(up => up.SubmoduleId)
-            //    .OnDelete(DeleteBehavior.Restrict);
-
-            //modelBuilder.Entity<UserPermission>()
-            //    .HasOne(up => up.Permission)
-            //    .WithMany()
-            //    .HasForeignKey(up => up.PermissionId)
-            //    .OnDelete(DeleteBehavior.Restrict);
-
-            //modelBuilder.Entity<UserPermission>()
-            //    .HasOne(up => up.User)
-            //    .WithMany(u => u.UserPermissions)
-            //    .HasForeignKey(up => up.UserId)
-            //    .OnDelete(DeleteBehavior.Restrict);
         }
     }
 
