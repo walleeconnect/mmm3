@@ -62,12 +62,12 @@ namespace TestProject1
                 await roleManager.CreateAsync(new IdentityRole("User"));
             }
 
-            if (!userManager.Users.Any())
-            {
-                var user = new ApplicationUser { UserName = "testuser", Email = "testuser@example.com", Role = "User" };
-               await userManager.CreateAsync(user, "Test@1234");
-                await userManager.AddToRoleAsync(user, "User");
-            }
+            //if (!userManager.Users.Any())
+            //{
+            //    var user = new ApplicationUser { UserName = "testuser", Email = "testuser@example.com", Role = "GroupOwner" };
+            //   await userManager.CreateAsync(user, "Test@1234");
+            //    await userManager.AddToRoleAsync(user, "User");
+            //}
 
             Group group1 = new Group() { Name = "Tata" };
             Group group2 = new Group() { Name = "Adani" };
@@ -111,7 +111,7 @@ namespace TestProject1
             EntityCountry entityCountry7 = new EntityCountry() { CountryId = country1.CountryId, EntityId = entity7.Id };//Rel infra-India
             EntityCountry entityCountry8 = new EntityCountry() { CountryId = country1.CountryId, EntityId = entity8.Id };//Rel petro -India
             EntityCountry entityCountry9 = new EntityCountry() { CountryId = country4.CountryId, EntityId = entity9.Id };//Rel Power - Aust
-            context.EntityCountries.AddRange(entityCountry1, entityCountry2, entityCountry3, entityCountry4, entityCountry5, entityCountry6, entityCountry7
+            context.EntityCountries.AddRange(entityCountry1, entityCountry2, entityCountry3, entityCountry4, entityCountry5, entityCountry6, entityCountry7,
                 entityCountry8, entityCountry9);
             await context.SaveChangesAsync();
 
@@ -132,7 +132,7 @@ namespace TestProject1
             EntityStateMapping entityStateMapping6 = new EntityStateMapping() { EntityId = entity6.Id, StateId = state5.StateId };
             EntityStateMapping entityStateMapping7 = new EntityStateMapping() { EntityId = entity7.Id, StateId = state1.StateId };
             EntityStateMapping entityStateMapping8 = new EntityStateMapping() { EntityId = entity8.Id, StateId = state1.StateId };
-            context.EntityStates.AddRange(entityStateMapping1, entityStateMapping2, entityStateMapping3, entityStateMapping4,
+            context.EntityStateMapping.AddRange(entityStateMapping1, entityStateMapping2, entityStateMapping3, entityStateMapping4,
                                             entityStateMapping5, entityStateMapping6, entityStateMapping7, entityStateMapping8);
             var result = await context.SaveChangesAsync();
 
@@ -174,7 +174,23 @@ namespace TestProject1
             context.Submodules.AddRange(submodule1, submodule2, submodule3, submodule4, submodule5, submodule6);
             await context.SaveChangesAsync();
 
-            
+            if (!roleManager.Roles.Any())
+            {
+                await roleManager.CreateAsync(new IdentityRole("GroupOwner"));
+                await roleManager.CreateAsync(new IdentityRole("EntityOwner"));
+                await roleManager.CreateAsync(new IdentityRole("User"));
+            }
+
+            if (!context.Permissions.Any())
+            {
+                context.Permissions.AddRange(
+                    new Permission { Name = "Add" },
+                    new Permission { Name = "Update" },
+                    new Permission { Name = "Upload" },
+                    new Permission { Name = "View" }
+                );
+                await context.SaveChangesAsync();
+            }
 
 
 

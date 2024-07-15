@@ -257,7 +257,7 @@
         public DbSet<UserPermission> UserPermissions { get; set; }
         public DbSet<GroupCountry> GroupCountries { get; set; }
         public DbSet<EntityCountry> EntityCountries { get; set; }
-        public DbSet<EntityStateMapping> EntityStates { get; set; }
+        public DbSet<EntityStateMapping> EntityStateMapping { get; set; }
         public DbSet<GroupModule> GroupModules { get; set; }
         public DbSet<GroupSubmodule> GroupSubmodules { get; set; }
         public DbSet<EntityModule> EntityModules { get; set; }
@@ -291,6 +291,8 @@
                 .HasOne(eo => eo.Entity)
                 .WithMany()
                 .HasForeignKey(eo => eo.EntityId);
+            builder.Entity<EntityStateMapping>()
+               .HasKey(up => new { up.EntityStateId });
 
             builder.Entity<UserPermission>()
                 .HasKey(up => new { up.UserPermissionId });

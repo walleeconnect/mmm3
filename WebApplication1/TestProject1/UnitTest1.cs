@@ -64,17 +64,24 @@ namespace TestProject1
         [Fact]
         public async Task Check_Permission_ReturnsOk()
         {
-            var results = await _client.GetAsync("/api/Reference/groups");
-
             // Arrange: Register and login user to get token
             var registerModel = new RegisterModel
             {
-                Username = "testuser",
-                Email = "testuser@example.com",
+                Username = "Satish-tata",
+                Email = "satish-tata@example.com",
                 Password = "Test@123",
                 Role = "User"
             };
             var registerContent = new StringContent(JsonConvert.SerializeObject(registerModel), Encoding.UTF8, "application/json");
+            await _client.PostAsync("/api/useraccount/register", registerContent);
+            registerModel = new RegisterModel
+            {
+                Username = "testuser",
+                Email = "testuser@example.com",
+                Password = "Test@123",
+                Role = "GroupOwner"
+            };
+            registerContent = new StringContent(JsonConvert.SerializeObject(registerModel), Encoding.UTF8, "application/json");
             await _client.PostAsync("/api/useraccount/register", registerContent);
 
             var loginModel = new LoginModel
@@ -88,9 +95,36 @@ namespace TestProject1
             var jwtToken = JsonConvert.DeserializeObject<JObject>(loginResponseString)["token"].ToString();
 
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", jwtToken);
+
+            var mapPermissionResponse = await MapPermissions(new MapPermissionModel
+            {
+                UserId = "Satish-tata",
+                GroupId = 1,
+                EntityId = 1,
+                ModuleId = 1,
+                SubmoduleId = 1,
+                PermissionId = 4 // "View" permission
+            });
+
+            mapPermissionResponse.EnsureSuccessStatusCode();
+
+            var loginModel1 = new LoginModel
+            {
+                Username = "Satish-tata",
+                Password = "Test@123"
+            };
+            var loginContent1 = new StringContent(JsonConvert.SerializeObject(loginModel1), Encoding.UTF8, "application/json");
+            var loginResponse1 = await _client.PostAsync("/api/useraccount/login", loginContent1);
+            var loginResponseString1 = await loginResponse1.Content.ReadAsStringAsync();
+            var jwtToken1 = JsonConvert.DeserializeObject<JObject>(loginResponseString1)["token"].ToString();
+
+            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", jwtToken1);
+            // Check permission again
+            var checkPermissionResponse = await CheckPermission(1, 1, 1, 1, "View");
+            Assert.Equal(System.Net.HttpStatusCode.OK, checkPermissionResponse.StatusCode);
             var response = await _client.GetAsync("/api/useraccount/get-permissions");
             // Act
-             response = await _client.GetAsync("/api/useraccount/check-permission?groupId=1&entityId=1&moduleId=1&submoduleId=1&permissionName=View");
+           //  response = await _client.GetAsync("/api/useraccount/check-permission?groupId=1&entityId=1&moduleId=1&submoduleId=1&permissionName=View");
 
             // Assert
             response.EnsureSuccessStatusCode();

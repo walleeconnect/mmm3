@@ -86,7 +86,7 @@ namespace UserManagement.API.Controllers
         [HttpPost("map-permissions")]
         public async Task<IActionResult> MapPermissions([FromBody] MapPermissionModel model)
         {
-            var user = await _userManager.FindByIdAsync(model.UserId);
+            var user = await _userManager.FindByNameAsync(model.UserId);
             if (user == null)
             {
                 return NotFound("User not found");
