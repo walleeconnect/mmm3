@@ -1,0 +1,489 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\modularmono\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3338A9FF-3F32-4CC4-AD46-C521D20C1F1B}|Monolith\\Monolith.csproj|c:\\dev\\modularmono\\webapplication1\\monolith\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3338A9FF-3F32-4CC4-AD46-C521D20C1F1B}|Monolith\\Monolith.csproj|solutionrelative:monolith\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F089DDBA-9B7C-4403-A4D9-C8AB6072ACD1}|ModuleA1.API\\ModuleA1.API.csproj|c:\\dev\\modularmono\\webapplication1\\modulea1.api\\moduleacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F089DDBA-9B7C-4403-A4D9-C8AB6072ACD1}|ModuleA1.API\\ModuleA1.API.csproj|solutionrelative:modulea1.api\\moduleacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E10231-F067-4FE8-BBA5-58109D268730}|UserManagement.API\\UserManagement.API.csproj|c:\\dev\\modularmono\\webapplication1\\usermanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E10231-F067-4FE8-BBA5-58109D268730}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E10231-F067-4FE8-BBA5-58109D268730}|UserManagement.API\\UserManagement.API.csproj|c:\\dev\\modularmono\\webapplication1\\usermanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E10231-F067-4FE8-BBA5-58109D268730}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F34D3C9-8485-412C-A601-4EFAEA2B8023}|ModuleA\\ModuleA.csproj|c:\\dev\\modularmono\\webapplication1\\modulea\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F34D3C9-8485-412C-A601-4EFAEA2B8023}|ModuleA\\ModuleA.csproj|solutionrelative:modulea\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3338A9FF-3F32-4CC4-AD46-C521D20C1F1B}|Monolith\\Monolith.csproj|c:\\dev\\modularmono\\webapplication1\\monolith\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3338A9FF-3F32-4CC4-AD46-C521D20C1F1B}|Monolith\\Monolith.csproj|solutionrelative:monolith\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E10231-F067-4FE8-BBA5-58109D268730}|UserManagement.API\\UserManagement.API.csproj|c:\\dev\\modularmono\\webapplication1\\usermanagement.api\\controllers\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E10231-F067-4FE8-BBA5-58109D268730}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\controllers\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E10231-F067-4FE8-BBA5-58109D268730}|UserManagement.API\\UserManagement.API.csproj|c:\\dev\\modularmono\\webapplication1\\usermanagement.api\\permissionrequirement .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E10231-F067-4FE8-BBA5-58109D268730}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\permissionrequirement .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E10231-F067-4FE8-BBA5-58109D268730}|UserManagement.API\\UserManagement.API.csproj|c:\\dev\\modularmono\\webapplication1\\usermanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F6E10231-F067-4FE8-BBA5-58109D268730}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E10231-F067-4FE8-BBA5-58109D268730}|UserManagement.API\\UserManagement.API.csproj|c:\\dev\\modularmono\\webapplication1\\usermanagement.api\\controllers\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E10231-F067-4FE8-BBA5-58109D268730}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\controllers\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E10231-F067-4FE8-BBA5-58109D268730}|UserManagement.API\\UserManagement.API.csproj|c:\\dev\\modularmono\\webapplication1\\usermanagement.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E10231-F067-4FE8-BBA5-58109D268730}|UserManagement.API\\UserManagement.API.csproj|solutionrelative:usermanagement.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F089DDBA-9B7C-4403-A4D9-C8AB6072ACD1}|ModuleA1.API\\ModuleA1.API.csproj|c:\\dev\\modularmono\\webapplication1\\modulea1.api\\modulea11controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F089DDBA-9B7C-4403-A4D9-C8AB6072ACD1}|ModuleA1.API\\ModuleA1.API.csproj|solutionrelative:modulea1.api\\modulea11controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B1E0DB-ABFA-479E-A64E-C7B66B9F565A}|ModuleB1.Application\\ModuleB1.Application.csproj|c:\\dev\\modularmono\\webapplication1\\moduleb1.application\\getmoduleb1handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B1E0DB-ABFA-479E-A64E-C7B66B9F565A}|ModuleB1.Application\\ModuleB1.Application.csproj|solutionrelative:moduleb1.application\\getmoduleb1handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B22D2D-CE5C-43EA-9AEE-2ED06C1027B0}|ModuleB\\ModuleB.csproj|c:\\dev\\modularmono\\webapplication1\\moduleb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B22D2D-CE5C-43EA-9AEE-2ED06C1027B0}|ModuleB\\ModuleB.csproj|solutionrelative:moduleb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF01A15E-46BF-4B08-95FA-EE865E504110}|ModuleB1.API\\ModuleB1.API.csproj|c:\\dev\\modularmono\\webapplication1\\moduleb1.api\\moduleb1servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF01A15E-46BF-4B08-95FA-EE865E504110}|ModuleB1.API\\ModuleB1.API.csproj|solutionrelative:moduleb1.api\\moduleb1servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B1E0DB-ABFA-479E-A64E-C7B66B9F565A}|ModuleB1.Application\\ModuleB1.Application.csproj|c:\\dev\\modularmono\\webapplication1\\moduleb1.application\\diformediatr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B1E0DB-ABFA-479E-A64E-C7B66B9F565A}|ModuleB1.Application\\ModuleB1.Application.csproj|solutionrelative:moduleb1.application\\diformediatr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E581945-A369-40A8-BB5A-E17379D97FCD}|ModuleA2.API\\ModuleA2.API.csproj|c:\\dev\\modularmono\\webapplication1\\modulea2.api\\modulea2servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E581945-A369-40A8-BB5A-E17379D97FCD}|ModuleA2.API\\ModuleA2.API.csproj|solutionrelative:modulea2.api\\modulea2servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E0DC6A7-846D-4896-AB8D-78B53B6C5C7F}|ModuleA2.Application\\ModuleA2.Application.csproj|c:\\dev\\modularmono\\webapplication1\\modulea2.application\\diformediatr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E0DC6A7-846D-4896-AB8D-78B53B6C5C7F}|ModuleA2.Application\\ModuleA2.Application.csproj|solutionrelative:modulea2.application\\diformediatr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F089DDBA-9B7C-4403-A4D9-C8AB6072ACD1}|ModuleA1.API\\ModuleA1.API.csproj|c:\\dev\\modularmono\\webapplication1\\modulea1.api\\modulea1servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F089DDBA-9B7C-4403-A4D9-C8AB6072ACD1}|ModuleA1.API\\ModuleA1.API.csproj|solutionrelative:modulea1.api\\modulea1servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A108F99-C7CC-4DD6-BF82-0E322C90982F}|ClassLibrary1\\ModuleA1.Application.csproj|c:\\dev\\modularmono\\webapplication1\\classlibrary1\\getmoduleahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A108F99-C7CC-4DD6-BF82-0E322C90982F}|ClassLibrary1\\ModuleA1.Application.csproj|solutionrelative:classlibrary1\\getmoduleahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E0DC6A7-846D-4896-AB8D-78B53B6C5C7F}|ModuleA2.Application\\ModuleA2.Application.csproj|c:\\dev\\modularmono\\webapplication1\\modulea2.application\\getmodulea2handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E0DC6A7-846D-4896-AB8D-78B53B6C5C7F}|ModuleA2.Application\\ModuleA2.Application.csproj|solutionrelative:modulea2.application\\getmodulea2handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A108F99-C7CC-4DD6-BF82-0E322C90982F}|ClassLibrary1\\ModuleA1.Application.csproj|c:\\dev\\modularmono\\webapplication1\\classlibrary1\\modulea1.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8A108F99-C7CC-4DD6-BF82-0E322C90982F}|ClassLibrary1\\ModuleA1.Application.csproj|solutionrelative:classlibrary1\\modulea1.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E0DC6A7-846D-4896-AB8D-78B53B6C5C7F}|ModuleA2.Application\\ModuleA2.Application.csproj|c:\\dev\\modularmono\\webapplication1\\modulea2.application\\modulea2.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3E0DC6A7-846D-4896-AB8D-78B53B6C5C7F}|ModuleA2.Application\\ModuleA2.Application.csproj|solutionrelative:modulea2.application\\modulea2.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B1E0DB-ABFA-479E-A64E-C7B66B9F565A}|ModuleB1.Application\\ModuleB1.Application.csproj|c:\\dev\\modularmono\\webapplication1\\moduleb1.application\\getmoduleb1query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B1E0DB-ABFA-479E-A64E-C7B66B9F565A}|ModuleB1.Application\\ModuleB1.Application.csproj|solutionrelative:moduleb1.application\\getmoduleb1query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF01A15E-46BF-4B08-95FA-EE865E504110}|ModuleB1.API\\ModuleB1.API.csproj|c:\\dev\\modularmono\\webapplication1\\moduleb1.api\\moduleb1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF01A15E-46BF-4B08-95FA-EE865E504110}|ModuleB1.API\\ModuleB1.API.csproj|solutionrelative:moduleb1.api\\moduleb1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E581945-A369-40A8-BB5A-E17379D97FCD}|ModuleA2.API\\ModuleA2.API.csproj|c:\\dev\\modularmono\\webapplication1\\modulea2.api\\modulea2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E581945-A369-40A8-BB5A-E17379D97FCD}|ModuleA2.API\\ModuleA2.API.csproj|solutionrelative:modulea2.api\\modulea2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E0DC6A7-846D-4896-AB8D-78B53B6C5C7F}|ModuleA2.Application\\ModuleA2.Application.csproj|c:\\dev\\modularmono\\webapplication1\\modulea2.application\\getmodulea2query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E0DC6A7-846D-4896-AB8D-78B53B6C5C7F}|ModuleA2.Application\\ModuleA2.Application.csproj|solutionrelative:modulea2.application\\getmodulea2query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D93A5C-5DD8-4D99-994A-5B714FDF30DB}|ModuleA1.Infra\\ModuleA1.Infra.csproj|c:\\dev\\modularmono\\webapplication1\\modulea1.infra\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D93A5C-5DD8-4D99-994A-5B714FDF30DB}|ModuleA1.Infra\\ModuleA1.Infra.csproj|solutionrelative:modulea1.infra\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25AE87CF-D6D2-495E-BC7F-FA7747F7AC14}|ModuleA1.Domain\\ModuleA1.Domain.csproj|c:\\dev\\modularmono\\webapplication1\\modulea1.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25AE87CF-D6D2-495E-BC7F-FA7747F7AC14}|ModuleA1.Domain\\ModuleA1.Domain.csproj|solutionrelative:modulea1.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\UserManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\Program.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\UserManagement.API\\Program.cs",
+              "RelativeToolTip": "UserManagement.API\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAADgvx0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T16:33:04.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\Monolith\\Program.cs",
+              "RelativeDocumentMoniker": "Monolith\\Program.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\Monolith\\Program.cs",
+              "RelativeToolTip": "Monolith\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAUwBoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T16:32:44.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\UserManagement.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\UserManagement.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "UserManagement.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAE4AAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T07:03:31.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\Monolith\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Monolith\\WeatherForecast.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\Monolith\\WeatherForecast.cs",
+              "RelativeToolTip": "Monolith\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T10:38:19.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModuleAController.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA1.API\\ModuleAController.cs",
+              "RelativeDocumentMoniker": "ModuleA1.API\\ModuleAController.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA1.API\\ModuleAController.cs",
+              "RelativeToolTip": "ModuleA1.API\\ModuleAController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T08:57:10.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ModuleA\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ModuleA\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T10:47:45.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PermissionRequirement .cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\UserManagement.API\\PermissionRequirement .cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\PermissionRequirement .cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\UserManagement.API\\PermissionRequirement .cs",
+              "RelativeToolTip": "UserManagement.API\\PermissionRequirement .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T10:28:17.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\UserManagement.API\\Controllers\\Models.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\Controllers\\Models.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\UserManagement.API\\Controllers\\Models.cs",
+              "RelativeToolTip": "UserManagement.API\\Controllers\\Models.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T10:30:50.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\UserManagement.API\\Controllers\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\Controllers\\DataSeeder.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\UserManagement.API\\Controllers\\DataSeeder.cs",
+              "RelativeToolTip": "UserManagement.API\\Controllers\\DataSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T07:26:48.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\UserManagement.API\\appsettings.json",
+              "RelativeDocumentMoniker": "UserManagement.API\\appsettings.json",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\UserManagement.API\\appsettings.json",
+              "RelativeToolTip": "UserManagement.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-21T11:18:07.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\UserManagement.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "UserManagement.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\UserManagement.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "UserManagement.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T11:19:32.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ModuleA11Controller.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA1.API\\ModuleA11Controller.cs",
+              "RelativeDocumentMoniker": "ModuleA1.API\\ModuleA11Controller.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA1.API\\ModuleA11Controller.cs",
+              "RelativeToolTip": "ModuleA1.API\\ModuleA11Controller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T13:04:52.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ModuleB1Controller.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleB1.API\\ModuleB1Controller.cs",
+              "RelativeDocumentMoniker": "ModuleB1.API\\ModuleB1Controller.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleB1.API\\ModuleB1Controller.cs",
+              "RelativeToolTip": "ModuleB1.API\\ModuleB1Controller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:10:49.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DIForMediatr.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA2.Application\\DIForMediatr.cs",
+              "RelativeDocumentMoniker": "ModuleA2.Application\\DIForMediatr.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA2.Application\\DIForMediatr.cs",
+              "RelativeToolTip": "ModuleA2.Application\\DIForMediatr.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:56:39.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetModuleB1Query.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleB1.Application\\GetModuleB1Query.cs",
+              "RelativeDocumentMoniker": "ModuleB1.Application\\GetModuleB1Query.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleB1.Application\\GetModuleB1Query.cs",
+              "RelativeToolTip": "ModuleB1.Application\\GetModuleB1Query.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:12:13.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetModuleB1Handler.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleB1.Application\\GetModuleB1Handler.cs",
+              "RelativeDocumentMoniker": "ModuleB1.Application\\GetModuleB1Handler.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleB1.Application\\GetModuleB1Handler.cs",
+              "RelativeToolTip": "ModuleB1.Application\\GetModuleB1Handler.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAmwA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:12:02.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ModuleB1ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleB1.API\\ModuleB1ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "ModuleB1.API\\ModuleB1ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleB1.API\\ModuleB1ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "ModuleB1.API\\ModuleB1ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:44:48.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleB\\Program.cs",
+              "RelativeDocumentMoniker": "ModuleB\\Program.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleB\\Program.cs",
+              "RelativeToolTip": "ModuleB\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T13:00:03.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DIForMediatr.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleB1.Application\\DIForMediatr.cs",
+              "RelativeDocumentMoniker": "ModuleB1.Application\\DIForMediatr.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleB1.Application\\DIForMediatr.cs",
+              "RelativeToolTip": "ModuleB1.Application\\DIForMediatr.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:59:28.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ModuleA2ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA2.API\\ModuleA2ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "ModuleA2.API\\ModuleA2ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA2.API\\ModuleA2ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "ModuleA2.API\\ModuleA2ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:57:30.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ModuleA1ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA1.API\\ModuleA1ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "ModuleA1.API\\ModuleA1ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA1.API\\ModuleA1ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "ModuleA1.API\\ModuleA1ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:43:27.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetModuleA2Handler.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA2.Application\\GetModuleA2Handler.cs",
+              "RelativeDocumentMoniker": "ModuleA2.Application\\GetModuleA2Handler.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA2.Application\\GetModuleA2Handler.cs",
+              "RelativeToolTip": "ModuleA2.Application\\GetModuleA2Handler.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T09:39:26.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetModuleAHandler.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ClassLibrary1\\GetModuleAHandler.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\GetModuleAHandler.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ClassLibrary1\\GetModuleAHandler.cs",
+              "RelativeToolTip": "ClassLibrary1\\GetModuleAHandler.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAowA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T09:27:27.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ModuleA1.Application.csproj",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ClassLibrary1\\ModuleA1.Application.csproj",
+              "RelativeDocumentMoniker": "ClassLibrary1\\ModuleA1.Application.csproj",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ClassLibrary1\\ModuleA1.Application.csproj",
+              "RelativeToolTip": "ClassLibrary1\\ModuleA1.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-08T12:51:20.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ModuleA2.Application.csproj",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA2.Application\\ModuleA2.Application.csproj",
+              "RelativeDocumentMoniker": "ModuleA2.Application\\ModuleA2.Application.csproj",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA2.Application\\ModuleA2.Application.csproj",
+              "RelativeToolTip": "ModuleA2.Application\\ModuleA2.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-08T12:47:23.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ModuleA2Controller.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA2.API\\ModuleA2Controller.cs",
+              "RelativeDocumentMoniker": "ModuleA2.API\\ModuleA2Controller.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA2.API\\ModuleA2Controller.cs",
+              "RelativeToolTip": "ModuleA2.API\\ModuleA2Controller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T09:40:27.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GetModuleA2Query.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA2.Application\\GetModuleA2Query.cs",
+              "RelativeDocumentMoniker": "ModuleA2.Application\\GetModuleA2Query.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA2.Application\\GetModuleA2Query.cs",
+              "RelativeToolTip": "ModuleA2.Application\\GetModuleA2Query.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T09:39:53.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA1.Infra\\Class1.cs",
+              "RelativeDocumentMoniker": "ModuleA1.Infra\\Class1.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA1.Infra\\Class1.cs",
+              "RelativeToolTip": "ModuleA1.Infra\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T08:58:12.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA1.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "ModuleA1.Domain\\Class1.cs",
+              "ToolTip": "C:\\Dev\\modularmono\\WebApplication1\\ModuleA1.Domain\\Class1.cs",
+              "RelativeToolTip": "ModuleA1.Domain\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T08:57:46.595Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
